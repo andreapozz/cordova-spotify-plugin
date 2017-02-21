@@ -36,7 +36,7 @@ curl -OL "https://github.com/spotify/ios-sdk/archive/beta-25.tar.gz"
 echo "Extracting"
 tar xzvf beta-25.tar.gz
 cd ..
-mv tmp/ios-sdk-beta-25/Spotify.framework .
+mv tmp/ios-sdk-beta-6/Spotify.framework .
 rm -rf tmp
 
 echo "Finished!"
