@@ -16,7 +16,7 @@ var OHHTTPStubsDir = path.join(devDir, 'OHHTTPStubs');
 
 var tmpDir = path.join(devDir, 'tmp');
 var cordovaTmpDir = path.join(tmpDir, 'cordova-ios-3.7.0/CordovaLib');
-var spotifyTmpDir = path.join(tmpDir, 'ios-sdk-beta-6/Spotify.framework');
+var spotifyTmpDir = path.join(tmpDir, 'ios-sdk-beta-23/Spotify.framework');
 var OHHTTPStubsTmpDir = path.join(tmpDir, 'OHHTTPStubs-3.1.6/OHHTTPStubs');
 
 var pchFile = path.join(__dirname, 'project_files', 'SpotifyPlugin-Prefix.pch');
