@@ -70,7 +70,7 @@ function downloadSpotifyFramework() {
   console.log('Downloading Spotify.framework');
 
   var req = request.get({
-    url: 'https://github.com/spotify/ios-sdk/archive/beta-25.tar.gz'
+    url: 'https://github.com/spotify/ios-sdk/archive/beta-23.tar.gz'
   }, function(err, res, body) {
     if (err || res.statusCode != 200) {
       shell.rm('-rf', tmpDir);
